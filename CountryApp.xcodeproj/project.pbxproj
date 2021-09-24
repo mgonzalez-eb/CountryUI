@@ -3,16 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		184AA1A926D8073F00A36D4F /* CountryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184AA1A826D8073F00A36D4F /* CountryRowView.swift */; };
+		184AA1AB26D8083C00A36D4F /* CountryFlagImageViewSUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184AA1AA26D8083C00A36D4F /* CountryFlagImageViewSUI.swift */; };
+		184AA1B326D82E2F00A36D4F /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 184AA1B226D82E2F00A36D4F /* SDWebImageSwiftUI */; };
+		184AA1B726D972AF00A36D4F /* CountryBordersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184AA1B626D972AF00A36D4F /* CountryBordersView.swift */; };
+		184AA1B926D976E900A36D4F /* CountryBordersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184AA1B826D976E900A36D4F /* CountryBordersViewModel.swift */; };
+		188E6B7726D01AD400A069E9 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E6B7626D01AD400A069E9 /* Country.swift */; };
+		188E6B7926D0230C00A069E9 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E6B7826D0230C00A069E9 /* APIClient.swift */; };
+		188E6B7B26D0238100A069E9 /* Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E6B7A26D0238100A069E9 /* Mocks.swift */; };
+		188E6B7D26D0242C00A069E9 /* CountryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E6B7C26D0242C00A069E9 /* CountryAPI.swift */; };
+		188E6B8426D027A800A069E9 /* CountryState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E6B8326D027A800A069E9 /* CountryState.swift */; };
+		188E6B8626D030FF00A069E9 /* LoadState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E6B8526D030FF00A069E9 /* LoadState.swift */; };
+		188E6B8826D0310F00A069E9 /* FailureState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E6B8726D0310F00A069E9 /* FailureState.swift */; };
+		188E6B8B26D0404E00A069E9 /* SVGKit in Frameworks */ = {isa = PBXBuildFile; productRef = 188E6B8A26D0404E00A069E9 /* SVGKit */; };
+		188E6B8D26D0404E00A069E9 /* SVGKitSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 188E6B8C26D0404E00A069E9 /* SVGKitSwift */; };
 		18CB835726C6E1770009362D /* CountryAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB835626C6E1770009362D /* CountryAppApp.swift */; };
 		18CB835926C6E1770009362D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB835826C6E1770009362D /* ContentView.swift */; };
 		18CB835B26C6E17A0009362D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CB835A26C6E17A0009362D /* Assets.xcassets */; };
 		18CB835E26C6E17A0009362D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CB835D26C6E17A0009362D /* Preview Assets.xcassets */; };
 		18CB836926C6E17A0009362D /* CountryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB836826C6E17A0009362D /* CountryAppTests.swift */; };
 		18CB837426C6E17B0009362D /* CountryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB837326C6E17B0009362D /* CountryAppUITests.swift */; };
+		18F804B526F50EB800EE15DE /* CountryListStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F804B426F50EB800EE15DE /* CountryListStore.swift */; };
+		18F804B726F548D100EE15DE /* CountryBordersStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F804B626F548D100EE15DE /* CountryBordersStore.swift */; };
+		18F91E1D26EA7F3A004D1754 /* CountryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F91E1C26EA7F39004D1754 /* CountryListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +50,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		184AA1A826D8073F00A36D4F /* CountryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryRowView.swift; sourceTree = "<group>"; };
+		184AA1AA26D8083C00A36D4F /* CountryFlagImageViewSUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryFlagImageViewSUI.swift; sourceTree = "<group>"; };
+		184AA1B626D972AF00A36D4F /* CountryBordersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryBordersView.swift; sourceTree = "<group>"; };
+		184AA1B826D976E900A36D4F /* CountryBordersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryBordersViewModel.swift; sourceTree = "<group>"; };
+		188E6B7626D01AD400A069E9 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		188E6B7826D0230C00A069E9 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		188E6B7A26D0238100A069E9 /* Mocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mocks.swift; sourceTree = "<group>"; };
+		188E6B7C26D0242C00A069E9 /* CountryAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryAPI.swift; sourceTree = "<group>"; };
+		188E6B8326D027A800A069E9 /* CountryState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryState.swift; sourceTree = "<group>"; };
+		188E6B8526D030FF00A069E9 /* LoadState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadState.swift; sourceTree = "<group>"; };
+		188E6B8726D0310F00A069E9 /* FailureState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailureState.swift; sourceTree = "<group>"; };
 		18CB835326C6E1770009362D /* CountryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CB835626C6E1770009362D /* CountryAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryAppApp.swift; sourceTree = "<group>"; };
 		18CB835826C6E1770009362D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +73,9 @@
 		18CB836F26C6E17B0009362D /* CountryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CB837326C6E17B0009362D /* CountryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryAppUITests.swift; sourceTree = "<group>"; };
 		18CB837526C6E17B0009362D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F804B426F50EB800EE15DE /* CountryListStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListStore.swift; sourceTree = "<group>"; };
+		18F804B626F548D100EE15DE /* CountryBordersStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryBordersStore.swift; sourceTree = "<group>"; };
+		18F91E1C26EA7F39004D1754 /* CountryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +83,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184AA1B326D82E2F00A36D4F /* SDWebImageSwiftUI in Frameworks */,
+				188E6B8D26D0404E00A069E9 /* SVGKitSwift in Frameworks */,
+				188E6B8B26D0404E00A069E9 /* SVGKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,9 +106,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		184AA1A726D8072D00A36D4F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				184AA1A826D8073F00A36D4F /* CountryRowView.swift */,
+				184AA1AA26D8083C00A36D4F /* CountryFlagImageViewSUI.swift */,
+				184AA1B626D972AF00A36D4F /* CountryBordersView.swift */,
+				18F91E1C26EA7F39004D1754 /* CountryListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		188E6B7526D01AAF00A069E9 /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				188E6B7626D01AD400A069E9 /* Country.swift */,
+				188E6B7826D0230C00A069E9 /* APIClient.swift */,
+				188E6B7A26D0238100A069E9 /* Mocks.swift */,
+				188E6B7C26D0242C00A069E9 /* CountryAPI.swift */,
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		188E6B7E26D0262800A069E9 /* CountryFeature */ = {
+			isa = PBXGroup;
+			children = (
+				188E6B8326D027A800A069E9 /* CountryState.swift */,
+				188E6B8526D030FF00A069E9 /* LoadState.swift */,
+				188E6B8726D0310F00A069E9 /* FailureState.swift */,
+				184AA1B826D976E900A36D4F /* CountryBordersViewModel.swift */,
+			);
+			path = CountryFeature;
+			sourceTree = "<group>";
+		};
 		18CB834A26C6E1770009362D = {
 			isa = PBXGroup;
 			children = (
+				18F804B326F50EAA00EE15DE /* Stores */,
+				184AA1A726D8072D00A36D4F /* View */,
+				188E6B7E26D0262800A069E9 /* CountryFeature */,
+				188E6B7526D01AAF00A069E9 /* APIClient */,
 				18CB835526C6E1770009362D /* CountryApp */,
 				18CB836726C6E17A0009362D /* CountryAppTests */,
 				18CB837226C6E17B0009362D /* CountryAppUITests */,
@@ -130,6 +201,15 @@
 			path = CountryAppUITests;
 			sourceTree = "<group>";
 		};
+		18F804B326F50EAA00EE15DE /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				18F804B426F50EB800EE15DE /* CountryListStore.swift */,
+				18F804B626F548D100EE15DE /* CountryBordersStore.swift */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +226,11 @@
 			dependencies = (
 			);
 			name = CountryApp;
+			packageProductDependencies = (
+				188E6B8A26D0404E00A069E9 /* SVGKit */,
+				188E6B8C26D0404E00A069E9 /* SVGKitSwift */,
+				184AA1B226D82E2F00A36D4F /* SDWebImageSwiftUI */,
+			);
 			productName = CountryApp;
 			productReference = 18CB835326C6E1770009362D /* CountryApp.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +302,10 @@
 				Base,
 			);
 			mainGroup = 18CB834A26C6E1770009362D;
+			packageReferences = (
+				188E6B8926D0404E00A069E9 /* XCRemoteSwiftPackageReference "SVGKit" */,
+				184AA1B126D82E2F00A36D4F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 18CB835426C6E1770009362D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -260,7 +349,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				18CB835926C6E1770009362D /* ContentView.swift in Sources */,
+				184AA1B726D972AF00A36D4F /* CountryBordersView.swift in Sources */,
+				18F804B526F50EB800EE15DE /* CountryListStore.swift in Sources */,
+				188E6B8626D030FF00A069E9 /* LoadState.swift in Sources */,
+				188E6B8826D0310F00A069E9 /* FailureState.swift in Sources */,
+				184AA1A926D8073F00A36D4F /* CountryRowView.swift in Sources */,
+				184AA1B926D976E900A36D4F /* CountryBordersViewModel.swift in Sources */,
 				18CB835726C6E1770009362D /* CountryAppApp.swift in Sources */,
+				188E6B7726D01AD400A069E9 /* Country.swift in Sources */,
+				188E6B8426D027A800A069E9 /* CountryState.swift in Sources */,
+				184AA1AB26D8083C00A36D4F /* CountryFlagImageViewSUI.swift in Sources */,
+				18F91E1D26EA7F3A004D1754 /* CountryListView.swift in Sources */,
+				188E6B7D26D0242C00A069E9 /* CountryAPI.swift in Sources */,
+				188E6B7926D0230C00A069E9 /* APIClient.swift in Sources */,
+				18F804B726F548D100EE15DE /* CountryBordersStore.swift in Sources */,
+				188E6B7B26D0238100A069E9 /* Mocks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +525,7 @@
 				DEVELOPMENT_TEAM = 6Q9LU82ADJ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CountryApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -444,7 +547,7 @@
 				DEVELOPMENT_TEAM = 6Q9LU82ADJ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CountryApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -580,6 +683,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		184AA1B126D82E2F00A36D4F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.2;
+			};
+		};
+		188E6B8926D0404E00A069E9 /* XCRemoteSwiftPackageReference "SVGKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SVGKit/SVGKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		184AA1B226D82E2F00A36D4F /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 184AA1B126D82E2F00A36D4F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		188E6B8A26D0404E00A069E9 /* SVGKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 188E6B8926D0404E00A069E9 /* XCRemoteSwiftPackageReference "SVGKit" */;
+			productName = SVGKit;
+		};
+		188E6B8C26D0404E00A069E9 /* SVGKitSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 188E6B8926D0404E00A069E9 /* XCRemoteSwiftPackageReference "SVGKit" */;
+			productName = SVGKitSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 18CB834B26C6E1770009362D /* Project object */;
 }

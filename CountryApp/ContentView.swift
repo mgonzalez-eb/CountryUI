@@ -8,14 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    let viewModel: CountryListStore.CountryViewModel
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        CountryListView(viewModel: viewModel)
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//      ContentView(
+//        viewModel: CountryListStore.CountryViewModel(
+//          state: .init(
+//            countryListResultsState: .success(
+//              .mocks[0]
+//            )
+//          ),
+//          environment: CountryListStore.Environment(countryApi: .apiClient)
+//        )
+//      )
+//    }
+//}

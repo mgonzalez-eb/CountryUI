@@ -11,7 +11,12 @@ import SwiftUI
 struct CountryAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          ContentView(
+            viewModel: CountryListStore.CountryViewModel(
+              state: .notRequested,
+              environment: .init(countryApi: .live(.all))
+            )
+          )
         }
     }
 }
